@@ -69,7 +69,7 @@
                         android:layout_height="120dp"
                         android:adjustViewBounds="true"
                         android:cropToPadding="true"
-                        android:src="@drawable/raket" />
+                        android:src="@drawable/raketbadminton" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -106,154 +106,6 @@
                         android:textAllCaps="false"
                         android:textColor="@color/white"
                         android:onClick="cobalogin"/>
-                </LinearLayout>
-            </LinearLayout>
-            <!--Navigasitengah-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="15dp">
-
-                <!-- card button1 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/card_button"
-                        android:clickable="true"
-                        android:foreground="?android:attr/selectableItemBackground"
-                        android:padding="20dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:adjustViewBounds="true"
-                            android:cropToPadding="true"
-                            android:src="@drawable/ic_payment_method" />
-                    </LinearLayout>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:text="Bayar"
-                        android:textAlignment="center"
-                        android:textSize="12dp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <RelativeLayout
-                    android:layout_width="30dp"
-                    android:layout_height="match_parent" />
-                <!-- card button2 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/card_button"
-                        android:clickable="true"
-                        android:foreground="?android:attr/selectableItemBackground"
-                        android:padding="20dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:adjustViewBounds="true"
-                            android:cropToPadding="true"
-                            android:src="@drawable/ic_clock" />
-                    </LinearLayout>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:text="Durasi"
-                        android:textAlignment="center"
-                        android:textSize="12dp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <RelativeLayout
-                    android:layout_width="30dp"
-                    android:layout_height="match_parent" />
-                <!-- card button3 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/card_button"
-                        android:clickable="true"
-                        android:foreground="?android:attr/selectableItemBackground"
-                        android:padding="20dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:adjustViewBounds="true"
-                            android:cropToPadding="true"
-                            android:src="@drawable/ic_history" />
-                    </LinearLayout>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:text="History"
-                        android:textAlignment="center"
-                        android:textSize="12dp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <RelativeLayout
-                    android:layout_width="30dp"
-                    android:layout_height="match_parent" />
-                <!-- card button4 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/card_button"
-                        android:clickable="true"
-                        android:foreground="?android:attr/selectableItemBackground"
-                        android:padding="20dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:adjustViewBounds="true"
-                            android:cropToPadding="true"
-                            android:src="@drawable/ic_writing" />
-                    </LinearLayout>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:text="Catatan"
-                        android:textAlignment="center"
-                        android:textSize="12dp"
-                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -321,7 +173,7 @@
                                         android:layout_height="wrap_content"
                                         android:adjustViewBounds="true"
                                         android:cropToPadding="false"
-                                        android:src="@drawable/kcmtrenang" />
+                                        android:src="@drawable/kacamatarenang" />
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
                             <LinearLayout
@@ -375,7 +227,7 @@
                                         android:layout_height="wrap_content"
                                         android:adjustViewBounds="true"
                                         android:cropToPadding="false"
-                                        android:src="@drawable/kock" />
+                                        android:src="@drawable/bolafutsal" />
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
                             <LinearLayout
@@ -384,7 +236,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content">
                                 <TextView
-                                    android:text="Kock Bulutangkis"
+                                    android:text="Bola Futsal"
                                     android:textStyle="bold"
                                     android:textSize="12dp"
                                     android:layout_width="match_parent"
@@ -429,7 +281,7 @@
                                         android:layout_height="wrap_content"
                                         android:adjustViewBounds="true"
                                         android:cropToPadding="false"
-                                        android:src="@drawable/futsal" />
+                                        android:src="@drawable/sepatu_futsal_8" />
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
                             <LinearLayout
@@ -438,7 +290,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content">
                                 <TextView
-                                    android:text="Bola Futsal"
+                                    android:text="Sepatu Futsal"
                                     android:textStyle="bold"
                                     android:textSize="12dp"
                                     android:layout_width="match_parent"
@@ -482,7 +334,7 @@
                                         android:layout_height="wrap_content"
                                         android:adjustViewBounds="true"
                                         android:cropToPadding="false"
-                                        android:src="@drawable/sptfutsal2" />
+                                        android:src="@drawable/sepatufutsal" />
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
                             <LinearLayout
@@ -584,7 +436,7 @@
                                         android:layout_height="wrap_content"
                                         android:adjustViewBounds="true"
                                         android:cropToPadding="false"
-                                        android:src="@drawable/sptbola" />
+                                        android:src="@drawable/sepatubola" />
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
                             <LinearLayout
@@ -638,7 +490,7 @@
                                         android:layout_height="wrap_content"
                                         android:adjustViewBounds="true"
                                         android:cropToPadding="false"
-                                        android:src="@drawable/basket" />
+                                        android:src="@drawable/netbadminton" />
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
                             <LinearLayout
@@ -647,7 +499,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content">
                                 <TextView
-                                    android:text="Bola Basket"
+                                    android:text="Net Badminton"
                                     android:textStyle="bold"
                                     android:textSize="12dp"
                                     android:layout_width="match_parent"
@@ -692,7 +544,7 @@
                                         android:layout_height="wrap_content"
                                         android:adjustViewBounds="true"
                                         android:cropToPadding="false"
-                                        android:src="@drawable/bedpingpong" />
+                                        android:src="@drawable/sarungtangan" />
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
                             <LinearLayout
@@ -701,7 +553,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content">
                                 <TextView
-                                    android:text="Batt Pingpong"
+                                    android:text="Sarung Tangan Bola"
                                     android:textStyle="bold"
                                     android:textSize="12dp"
                                     android:layout_width="match_parent"
@@ -745,7 +597,7 @@
                                         android:layout_height="wrap_content"
                                         android:adjustViewBounds="true"
                                         android:cropToPadding="false"
-                                        android:src="@drawable/raket" />
+                                        android:src="@drawable/raketbadminton" />
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
                             <LinearLayout

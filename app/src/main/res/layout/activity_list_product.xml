@@ -39,8 +39,7 @@
             android:layout_weight="8"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:padding="14dp"
-            app:srcCompat="@drawable/sptfutsal">
+            android:padding="14dp">
 
             <!-- Row 1 -->
 
@@ -66,8 +65,8 @@
                     <ImageView
                         android:id="@+id/imageView3"
                         android:layout_width="match_parent"
-                        android:layout_height="133dp"
-                        app:srcCompat="@drawable/kock" />
+                        android:layout_height="135dp"
+                        app:srcCompat="@drawable/kacamatarenang" />
 
                     <Button
                         android:id="@+id/button1"
@@ -102,10 +101,10 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:layout_width="109dp"
-                        android:layout_height="135dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="133dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/futsal" />
+                        android:src="@drawable/bolafutsal" />
 
                     <Button
                         android:id="@+id/button2"
@@ -143,10 +142,10 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:layout_width="118dp"
-                        android:layout_height="127dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="133dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/sptbola" />
+                        android:src="@drawable/sepatubola" />
 
                     <Button
                         android:id="@+id/button3"
@@ -179,10 +178,10 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:layout_width="125dp"
-                        android:layout_height="128dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="133dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/sptfutsal2" />
+                        android:src="@drawable/sepatufutsal" />
 
                     <Button
                         android:id="@+id/button4"
@@ -215,8 +214,8 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:layout_width="125dp"
-                        android:layout_height="128dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="133dp"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/sarungtangan" />
 
@@ -251,7 +250,7 @@
                         android:layout_width="125dp"
                         android:layout_height="128dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/raket" />
+                        android:src="@drawable/raketbadminton" />
 
                     <Button
                         android:id="@+id/button6"
@@ -281,10 +280,10 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:layout_width="125dp"
-                        android:layout_height="128dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="133dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/sptfutsal" />
+                        android:src="@drawable/sepatu_futsal_8" />
 
                     <Button
                         android:id="@+id/button7"
@@ -314,10 +313,10 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:layout_width="125dp"
-                        android:layout_height="128dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="133dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/net" />
+                        android:src="@drawable/netbadminton" />
 
                     <Button
                         android:id="@+id/button8"

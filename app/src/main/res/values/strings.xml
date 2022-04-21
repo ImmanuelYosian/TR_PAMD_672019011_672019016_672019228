@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">TR_672019011_672019016_672019228</string>
+    <string name="namaproduct1"> Kacamata Renang</string>
+    <string name="namaproduct2"> Bola Futsal</string>
+    <string name="namaproduct3"> Sepatu Bola</string>
+    <string name="namaproduct4"> Sepatu Futsal</string>
+    <string name="namaproduct5"> Sarung Tangan</string>
+    <string name="namaproduct6"> Raket Badminton</string>
+    <string name="namaproduct7"> Sepatu Futsal</string>
+    <string name="namaproduct8"> Net Badminton</string>
+    <string name="hargaproduct1">Rp 15.0000 Perjam</string>
+    <string name="hargaproduct2">Rp 25.0000 Perjam</string>
+    <string name="hargaproduct3">Rp 35.0000 Perjam</string>
+    <string name="hargaproduct4">Rp 35.0000 Perjam</string>
+    <string name="hargaproduct5">Rp 20.0000 Perjam</string>
+    <string name="hargaproduct6">Rp 30.0000 Perjam</string>
+    <string name="hargaproduct7">Rp 35.0000 Perjam</string>
+    <string name="hargaproduct8">Rp 50.0000 Perjam</string>
+    <string name="DeskripsiProduct1">Kacamata renang merupakan salah satu peralatan renang yang mampu mencegah iritasi mata yang disebabkan oleh air kolam renang.</string>
+    <string name="DeskripsiProduct2">Futsal adalah permainan bola yang dimainkan oleh dua tim, yang masing-masing beranggotakan lima orang. Tujuannya adalah memasukkan bola ke gawang lawan, dengan memanipulasi bola dengan kaki. </string>
+    <string name="DeskripsiProduct3">Sepatu sepakbola yang ada saat ini adalah perpaduan antara teknologi, sains, dan seni. Sepatu tidak hanya dirancang untuk meningkatkan performa pemain sepakbola, namun juga terlihat menarik saat dikenakan.</string>
+    <string name="DeskripsiProduct4">Sepatu futsal sendiri biasanya dilengkapi dengan outsole karet yang tahan lama dan sepintas mirip dengan sepatu basket.</string>
+    <string name="DeskripsiProduct5">Sarung tangan dalam permainan sepak bola merupakan senjata penting sekaligus belahan jiwa bagi pemain yang berposisi sebagai kiper.</string>
+    <string name="DeskripsiProduct6">Raket adalah alat untuk memukul bola dalam permainan tenis, bulu tangkis, atau squash; ujungnya berbentuk bidang oval (bulat telur) berjaring (dari bahan nilon), bergagang, dan dilengkapi dengan pegangan.</string>
+    <string name="DeskripsiProduct7">Futsal adalah permainan bola yang dimainkan oleh dua tim, yang masing-masing beranggotakan lima orang. Tujuannya adalah memasukkan bola ke gawang lawan, dengan memanipulasi bola dengan kaki.</string>
+    <string name="DeskripsiProduct8">Net pada bulu tangkis merupakan jaring pemisah antara kedua pemain atau pasangan. Net berada tepat di tengah-tengah lapangan.</string>
+    <string name="fotoproduct1">https://tokoonline88.com/wp-content/uploads/2017/08/obaolay-kacamata-renang-minus-35-anti-fog-uv-set-protection-black-1.jpg</string>
+    <string name="fotoproduct2">https://topsystem.id/api/product//600/1644760594.jpg</string>
+    <string name="fotoproduct3">https://i.pinimg.com/736x/94/b2/8d/94b28d8a7bf1b6faa812e622ae7cfe55--sepatu-adidas.jpg</string>
+    <string name="fotoproduct4">https://merkbagus.id/wp-content/uploads/2019/10/PUMA-Future-19.4-IT-e1571309672413.jpg</string>
+    <string name="fotoproduct5">https://cdn1.productnation.co/stg/sites/5/5e2918e22b3bd.jpeg</string>
+    <string name="fotoproduct6">https://images.solopos.com/2018/08/raket-badminton-pinterest.jpg</string>
+    <string name="fotoproduct7">https://s1.bukalapak.com/uploads/content_attachment/b57fe5bdd2e8d762bd0944c5/w-740/sepatu_futsal_8.jpg</string>
+    <string name="fotoproduct8">https://www.jakartanotebook.com/images/products/80/1020/39457/2/net-badminton-portable-folding-rack-51-meter-black-1.jpg</string>
+
 </resources>

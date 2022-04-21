@@ -217,7 +217,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="133dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/sarungtangan" />
+                        android:src="@drawable/srgbola" />
 
                     <Button
                         android:id="@+id/button5"

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/bg"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:background="@color/primaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    android:text="Daftar Alat Olahraga Yang Tersedia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_weight="8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="14dp"
+            app:srcCompat="@drawable/sptfutsal">
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="118dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="133dp"
+                        app:srcCompat="@drawable/kock" />
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sewa sekarang"
+                        app:backgroundTint="#254965"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="109dp"
+                        android:layout_height="135dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/futsal" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sewa sekarang"
+                        app:backgroundTint="#254965"
+                        android:onClick="desbola" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- Row 2 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="118dp"
+                        android:layout_height="127dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sptbola" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sewa sekarang"
+                        app:backgroundTint="#254965"
+                        android:onClick="dessptbola"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="128dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sptfutsal2" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sewa sekarang"
+                        app:backgroundTint="#254965"
+                        android:onClick="dessptfutsall"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Row 2 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="128dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sarungtangan" />
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sewa sekarang"
+                        app:backgroundTint="#254965"
+                        android:onClick="dessarungtangan"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="128dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/raket" />
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sewa sekarang"
+                        app:backgroundTint="#254965"
+                        android:onClick="desraket"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="128dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/sptfutsal" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sewa sekarang"
+                        app:backgroundTint="#254965"
+                        android:onClick="dessptfutsall2"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp">
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="128dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/net" />
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sewa sekarang"
+                        app:backgroundTint="#254965"
+                        android:onClick="desnet"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

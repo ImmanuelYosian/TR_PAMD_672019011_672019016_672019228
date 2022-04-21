@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".DeskripsiProductActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/kock" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#254965"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:text="Kock"
+        android:layout_margin="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Harga /jam : 15.000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="240dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Shuttlecock atau bola dalam permainan bulu tangkis terbuat dari bulu alami dan gabus berbahan serat kayu dari pohon ek (oak). Namun, seperti dikutip dari laman Federasi Bulu Tangkis Dunia (BWF), kedua bahan tersebut bisa digantikan dengan bahan sintetis lain dengan karakteristik serupa"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/Namaalat"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Masukkan Nama Barang" />
+    <EditText
+        android:id="@+id/Waktupesan"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Masukkan Durasi Sewa " />
+
+    <Button
+        android:id="@+id/pesan"
+        android:layout_width="146dp"
+        android:layout_height="50dp"
+        android:text="Pesan"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

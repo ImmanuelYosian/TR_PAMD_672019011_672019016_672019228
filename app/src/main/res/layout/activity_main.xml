@@ -544,7 +544,7 @@
                                         android:layout_height="wrap_content"
                                         android:adjustViewBounds="true"
                                         android:cropToPadding="false"
-                                        android:src="@drawable/sarungtangan" />
+                                        android:src="@drawable/srgbola" />
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
                             <LinearLayout

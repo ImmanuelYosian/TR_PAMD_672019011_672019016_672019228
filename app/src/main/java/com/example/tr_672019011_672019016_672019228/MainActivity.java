@@ -13,9 +13,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void cobalogin(View v){
-        Intent intent1 = new Intent(getApplicationContext(),LoginActivity.class);
-        startActivity(intent1);
+    public void bookingsekarang(View v){
+        Intent intent = new Intent(MainActivity.this, DeskripsiProductActivity.class);
+        intent.putExtra("title",getString(R.string.namaproduct6));
+        intent.putExtra("hargaproduct",getString(R.string.hargaproduct6));
+        intent.putExtra("deskripsiproduct",getString(R.string.DeskripsiProduct6));
+        intent.putExtra("url", getString(R.string.fotoproduct6));
+        startActivity(intent);
     }
     public void listproduct(View v){
         Intent intent1 = new Intent(getApplicationContext(),ListProductActivity.class);

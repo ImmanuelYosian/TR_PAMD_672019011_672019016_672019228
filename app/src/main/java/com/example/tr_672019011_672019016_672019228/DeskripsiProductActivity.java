@@ -66,8 +66,6 @@ public class DeskripsiProductActivity extends AppCompatActivity {
                     .error(R.drawable.ic_launcher_background)
                     .into(fotoproduct);
         }
-
-
         btnPesan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
